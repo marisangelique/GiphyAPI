@@ -1,0 +1,20 @@
+body{
+    background: yellow;
+}
+
+h1{
+    font-family: 'Major Mono Display', monospace;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.topics{
+    font-family: 'Quicksand', sans-serif;
+}
+
+img{
+    max-height: 350px;
+    max-width: 350px;
+}
