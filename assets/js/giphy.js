@@ -8,7 +8,7 @@ $( document ).ready(function(){
         var search = $(this).data("search");
         console.log("You searched: " + search);
 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=lmapTubZ9xW5vUeDZtzSt3LnlXPztBHL&limit=10"
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=lmapTubZ9xW5vUeDZtzSt3LnlXPztBHL&limit=10"
 
         console.log("Searching: " + queryURL + "...");
 
