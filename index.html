@@ -5,21 +5,28 @@
         <link rel="shortcut icon" href="assets/images/logo copy 3.png">
         <link rel="stylesheet" href="assets/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Quicksand" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
 
-        <div class="content">
-            <h1>Giphy Search</h1>
-            <p>Search for gifs and add them to your favorites!</p>
+        <div class="navigation">
+            <div class="content">
+                <h1>Giphy Search</h1>
+            </div>
+            <div>
+                <!-- <p class="fav">FAVORITES</p> -->
+            </div>   
         </div>
 
         <div class="searchBar">
+            <p>Search for gifs and add them to your favorites!</p>
             <form>
                 <input id="search" type="text" placeholder="Keyword...">
-                <button id="submit" type="submit">SEARCH</button>
+                <button id="submit" type="submit">ADD SEARCH</button>
             </form>
-            <div id="topics" class="topics"> </div>
         </div>
+        
+        <div id="topics" class="topics"> </div>
 
         <div id="canvas" class="canvas"> </div>
 

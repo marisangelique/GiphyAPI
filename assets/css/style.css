@@ -12,9 +12,65 @@ p{
 
 .topics{
     font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 img{
     max-height: 350px;
     max-width: 350px;
 }
+.fav{
+    font-family: 'Quicksand', sans-serif;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background: yellow;
+    float: right;
+    margin-top: -50px;
+}
+
+.navigation{
+    background: #4682B4;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+.searchBar{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.results{
+    grid-row-start: 1;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: yellow;
+    border-style: groove;
+    text-align: center;
+    display: inline-block;
+    /* display: -moz-inline-stack;  */
+    *display: inline; /* for ie 6 and 7 */
+}
+
+.canvas{
+    margin-top: 20px;
+    background-color: #4682B4;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.addButton{
+    background: yellow;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: black;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+
